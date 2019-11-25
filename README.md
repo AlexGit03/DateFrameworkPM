@@ -1,6 +1,6 @@
 # DateFramworkPM
 
-Un framework che facilita la gestione delle date in swift
+Un framework che facilita la gestione delle date in swift!
 
 Composto da:
 
@@ -11,7 +11,7 @@ Composto da:
 
 ## PMFormatter
 
-un enum che stabilisce tutti i tipi di formati della data.
+Un enum che stabilisce tutti i tipi di formati della data.
 All'interno una variabile publica value che rappresenta il formato della data come tipo stringa.
 e un dateFormatter di tipo DateFormatter appunto che ritorna la sua rappresentazione di quel tipo.
 utile per trasformare date in stringa e viceversa
@@ -48,7 +48,7 @@ ES:
 
 ## PropertyWrapper
 
-aggiunta una propertyWrapper chiamata FormatDateTypeString che ti da diverse opportunita sfrutando tutti i metodi visti prima.
+Aggiunta una propertyWrapper chiamata FormatDateTypeString che ti da diverse opportunita sfrutando tutti i metodi visti prima.
 
 La properti wrapper ha 4 costruttori per dare la possibilità di conversione a 360 gradi
 Ti serve per dare in fare di dichiarazione nel modello stesso il formato disiderato di output della stringa sapendo a priori il formato della data che arriva dal server o semplicemente passata nel costruttore
